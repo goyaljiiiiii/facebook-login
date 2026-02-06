@@ -6,9 +6,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facebook Login Page Clone</title>
+    <script>
+        function toggleDarkMode() {
+            const body = document.body;
+            body.classList.toggle('dark-mode');
+            const themeToggleButton = document.querySelector('.theme-toggle');
+            themeToggleButton.textContent = body.classList.contains('dark-mode') ? '🌞 Light Mode' : '🌙 Dark Mode';
+        }
+    </script>
 </head>
 
 <body>
+    <button onclick="toggleDarkMode()" class="theme-toggle">🌙 Dark Mode</button>
     <h1>facebook</h1>
     <div class="container">
         <div class="information">
@@ -25,6 +34,13 @@
             <a href="https://www.facebook.com/r.php?locale=en_GB&display=page">Sign up for facebook</a>
         </div>
     </div>
+    <script src="js/dark-mode.js"></script>
+    <style>
+        body.dark-mode {
+            background-color: #181818;
+            color: white;
+        }
+    </style>
 </body>
 
 </html>
