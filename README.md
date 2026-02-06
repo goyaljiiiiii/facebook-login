@@ -1,14 +1,53 @@
 # Facebook Login Page Clone
 
-This is a simple clone of the Facebook login page created using **HTML** and **CSS**. It was my first web development project, and I focused on implementing a clean layout and responsive design.
+![HTML](https://img.shields.io/badge/HTML5-Structure-E34F26?logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-Styling-1572B6?logo=css3&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Complete-2EA44F)
 
-## Features
-- **HTML** for structure
-- **CSS** for styling and responsive design
-- Mobile and desktop-friendly layout
-- Simple user interface replicating the Facebook login page
+## ✨ Overview
+A clean, responsive clone of the Facebook login page built with **HTML** and **CSS**. This project focuses on layout accuracy, visual hierarchy, and a polished UI that works well across devices.
 
-###Explained on linedin
-https://www.linkedin.com/posts/nandini-goyal-b26578339_excited-to-share-my-first-ever-web-development-activity-7291325439363469312-_hUf?utm_source=share&utm_medium=member_desktop
+## ✅ Features
+- Pixel-inspired layout and spacing
+- Responsive and mobile-friendly design
+- Simple, readable markup
+- Clean, reusable CSS
 
+## 🧰 Tech Stack
+- **HTML5**
+- **CSS3**
+
+## 📁 Project Structure
+- `facebook-login/facebook.html`
+- `facebook-login/style/facebook.css`
+- `facebook-login/README.md`
+
+## 🚀 Live Demo
+- Coming soon
+
+## 🖼️ Screenshots
+![Screenshot](assets/screenshot.png)
+
+## 🧪 Getting Started
+1. Clone the repository.
+2. Open `facebook-login/facebook.html` in your browser.
+
+## 🧩 Customization
+- Update colors and spacing in `facebook-login/style/facebook.css`.
+- Swap the logo text in `facebook-login/facebook.html`.
+- Add new sections or form fields as needed.
+
+## 🧭 Roadmap
+- Add dark mode option
+- Add focus states for inputs
+- Improve accessibility labels
+
+## 🤝 Contributing
+Suggestions and improvements are welcome. Feel free to open a pull request or share feedback.
+
+## 📝 License
+No license specified. Add one if you plan to share or reuse this publicly.
+
+## 🙌 Acknowledgements
+- Inspired by the Facebook login page layout
 
