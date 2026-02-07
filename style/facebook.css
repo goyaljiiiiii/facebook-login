@@ -61,3 +61,88 @@ a{
 a:hover{
     text-decoration: underline;
 }
+/* ============================
+   Focus styles for inputs
+   ============================ */
+
+input:focus {
+    outline: none;
+    border: 2px solid #1877F2;
+    box-shadow: 0 0 6px rgba(24, 119, 242, 0.5);
+}
+
+
+/* ============================
+   Dark mode toggle button
+   ============================ */
+
+.dark-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    background-color: #1877F2;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+
+/* ============================
+   Dark mode styles
+   ============================ */
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode h1 {
+    color: #3b82f6;
+}
+
+.dark-mode .information {
+    background-color: #1e1e1e;
+    border: 2px solid #1e1e1e;
+    box-shadow: 0 4px 6px rgba(255,255,255,0.1);
+}
+
+.dark-mode input {
+    background-color: #2c2c2c;
+    color: white;
+    border: 1px solid #555;
+}
+
+.dark-mode input::placeholder {
+    color: #bbb;
+}
+
+.dark-mode button {
+    background-color: #3b82f6;
+}
+
+.dark-mode button:hover {
+    background-color: #2563eb;
+}
+
+.dark-mode a {
+    color: #9ecbff;
+}
+
+
+/* ============================
+   Accessibility hidden labels
+   ============================ */
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
